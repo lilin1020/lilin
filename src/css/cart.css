@@ -1,0 +1,118 @@
+/* 购物车js样式 */
+
+.main-container {
+    padding-top: 50px;
+}
+.page-header {
+    padding-bottom: 9px;
+    margin: 40px 0 20px;
+    border-bottom: 1px solid #eee;
+    overflow: hidden;
+}
+.cart-header {
+    line-height: 40px;
+    margin-bottom: 20px;
+    background-color: #efefef;
+    border: 1px #e9e9e9 solid;
+    overflow: hidden;
+}
+.cart-container input[type=checkbox] {
+    cursor: pointer;
+}
+
+input[type=checkbox], input[type=radio] {
+    margin: 4px 0 0;
+    margin-top: 1px\9;
+    line-height: normal;
+}
+.cart-container .control-label {
+    cursor: pointer;
+    width: 100%;
+    font-weight: normal;
+}
+.col-xs-5 {
+    width: 41.66666667%;
+}
+.col-xs-1 {
+    width: 8.33333333%;
+}
+.col-xs-2 {
+    width: 16.66666667%;
+}
+.cart-container .cart-body .cart-item.enabled {
+    background: #fffeec;
+}
+.cart-container .control-label {
+    cursor: pointer;
+    width: 100%;
+    font-weight: normal;
+}
+.main-container .cart-container .myCart .row {
+    overflow: hidden;
+    border-top: 0;
+}
+.col-xs-3 {
+    width: 25%;
+}
+.cart-container .cart-body a {
+    color: #555;
+}
+.img-thumbnail {
+    display: inline-block;
+    max-width: 100%;
+    height: auto;
+    padding: 4px;
+    line-height: 1.42857143;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 2px;
+    -webkit-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+.cart-container .cart-body .product-quantity {
+    width: 85%;
+}
+.input-group {
+    position: relative;
+    display: table;
+    border-collapse: separate;
+}
+.input-group-btn {
+    position: relative;
+    font-size: 10px;
+    white-space: nowrap;
+}
+.input-group-sm{
+    display: flex;
+}
+.myCart{
+    overflow: hidden;
+    padding: 0;
+    /* border-top: 1px #efefef solid;
+    border-bottom: 1px #e9e9e9 solid; */
+}
+.cart-footer {
+    padding: 15px 0;
+    border: 1px #efefef solid;
+    margin-bottom: 15px;
+    overflow: hidden;
+}
+.c-cf-opt>a{
+    display: block;
+    float: right;
+    width: 85px;
+    height: 50px;
+    font-size: 18px;
+    color:#fff;
+    line-height: 50px;
+}
+.btn-danger {
+    background: #ed1c24;
+    border: #ed1c24;
+    text-align: center;
+    border-radius: 5px;
+}
+.form-control{
+    width: 20px;
+}

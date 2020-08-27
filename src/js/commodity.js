@@ -1,0 +1,26 @@
+//跳转购物车
+$('h2').html('充钱才能购买'+localStorage.getItem('un'))
+//增加商品
+$('.addToCart').click(function(){
+    console.log(1)
+    $.ajax({
+        url:'http://localhost/code/kangjiashouye/kangjia/server/addwq.php',
+        dataType:'json',
+        data:{
+            id:'3',
+            name:'高颜值糖果粉干果机烤箱KAO-T6',
+            img:'../images/01cart.jpg',
+            num:2,
+            price:129.00,
+        },
+        success:function(res){
+            if(res.code){
+                alert('商品加入成功')
+                location.href = "http://localhost/code/kangjiashouye/kangjia/src/pages/cart.html"
+                console.log(res.code)
+            }else{
+                alert('商品加入失败')
+            }
+        }
+    })
+})
